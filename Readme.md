@@ -17,7 +17,8 @@ You'll need:
 - Home Assistant with MQTT broker set up
 - Some spooky sound files (I've got witches, creaky windows, evil laughs, the whole nine yards)
 
-Install the required packages:``` bash
+Install the required packages:
+``` bash
 pip install paho-mqtt python-dotenv pygame
 ```
 
