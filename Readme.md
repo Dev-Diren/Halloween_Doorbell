@@ -23,7 +23,8 @@ pip install paho-mqtt python-dotenv pygame
 ```
 
 Configuration
-Create a .env file in the project root with your MQTT credentials:``` 
+Create a .env file in the project root with your MQTT credentials:
+``` 
 username=your_mqtt_username
 password=your_mqtt_password
 ```
@@ -31,7 +32,8 @@ password=your_mqtt_password
 Update the MQTT broker IP and topics in main.py if needed (look for host and the topic names).
 Throw your spooky sound files (mp3, wav, ogg, etc.) into the sounds folder.
 Running It
-Just run:``` bash
+Just run:
+``` bash
 python main.py
 ```
 Press Ctrl+C when you're done scaring children.
